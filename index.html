@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Nikhil's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="navigation">
+            <nav>          
+                <button id="button"><a href="#hero">about</a></button>
+                <button id="button"><a href="#techStack">skills</a></button>
+                <button id="button"><a href="#projects">projects</a></button>
+                <button id="button"><a href="#contact">contact form</a></button>      
+            </nav>
+             <button id="themeToggle">Toggle Dark/Light Mode</button>
+
+        </div>
+
+        <section id="hero">
+            <div> 
+                <h4>hey, i am</h4>
+                <h1>Nikhil P</h1>
+            </div>
+            <h3>i love to build and break stuff, open to work</h3>
+        </section>
+
+        <section id="techStack">
+            <h2>skills</h2>
+            <button id="button2">nextjs</button>
+            <button id="button2">mern</button>
+            <button id="button2">nextjs</button>
+            <button id="button2">Typescript</button>
+            <button id="button2">mysql</button>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project-card">
+                
+                <h5>Anonymous Grievance System</h5>
+                <p>MERN-based solution to recommend users with a platform for grievance addressing</p>
+            </div>
+            
+            <div class="project-card">
+                
+                <h5>Anime Recommendation System</h5>
+                <p>Providing recommendations based on user's interests</p>
+            </div>
+            
+            <div class="project-card">
+                
+                <h5>Places Lead Generation Bot</h5>
+                <p>Providing business information for specific lists</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="post">
+                <div>
+                    Name:
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div>
+                    mailId: 
+                    <input type="email" placeholder="enter your mail">
+                </div>
+                <div>
+                    Message:
+                    <input type="text" placeholder="enter your message">
+                </div>
+                <button type="submit" id="submitbtn">submit form</button>
+            </form>
+        </section>
+
+        <footer>
+            © Nikhil P CSE at ATMECE
+        </footer>
+
+       
+        <script>
+            const themeToggleButton = document.getElementById('themeToggle');
+            themeToggleButton.addEventListener('click', () => {
+                document.body.classList.toggle('light-mode');
+                document.getElementById('navigation').classList.toggle('light-mode');
+            });
+        </script>
+    </body>
+</html>

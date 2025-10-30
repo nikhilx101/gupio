@@ -1,0 +1,107 @@
+/* Default Dark Mode */
+body {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#navigation {
+    background-color: grey;
+    padding-left: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: wheat;
+}
+
+#hero {
+    margin: 0%;
+}
+
+#submitbtn {
+    width: 100px;
+    height: 20px;
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+}
+
+#button {
+    width: 100px;
+    height: 20px;
+    background-color: grey;
+    color: white;
+}
+
+#button2 {
+    border-radius: 30%;
+    padding: 3px;
+    color: black;
+}
+
+input {
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+/* Light Mode */
+body.light-mode {
+    color: black;
+    background-color: white;
+}
+
+#navigation.light-mode {
+    background-color: lightgray;
+    color: black;
+}
+
+/* Project Card Styling */
+#projects {
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card h5 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Dark/Light Mode Button */
+#themeToggle {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+#themeToggle:hover {
+    background-color: darkgray;
+}
